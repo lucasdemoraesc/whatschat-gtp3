@@ -1,0 +1,20 @@
+{
+  "name": "whatschat-gtp3",
+  "version": "1.0.0",
+  "description": "Integração do ChatGtpt com Whatsapp (por @victorharry: https://www.tabnews.com.br/victorharry/guia-completo-de-como-integrar-o-chat-gpt-com-whatsapp).",
+  "main": "index.js",
+  "author": "Lucas Moraes",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "node --inspect --experimental-modules --es-module-specifier-resolution=node ."
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "venom-bot": "^4.3.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
